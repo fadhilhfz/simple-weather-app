@@ -1,0 +1,59 @@
+.CityBar {
+  width: 100%;
+  /* background-color: rgb(83, 83, 83); */
+  /* background-color: rgba(234, 234, 234, 0.559); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0 2rem 0;
+}
+
+.CityBar-card {
+  width: 50%;
+  height: 10rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0px 0px 17px 3px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 0px 17px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 0px 17px 3px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  background: rgb(254, 254, 254);
+  background: rgb(254, 254, 254);
+  background: rgb(228, 230, 147);
+  background: linear-gradient(
+    90deg,
+    rgba(228, 230, 147, 1) 43%,
+    rgba(78, 131, 214, 1) 85%,
+    rgba(33, 133, 238, 1) 92%,
+    rgba(0, 134, 255, 1) 97%
+  );
+}
+
+.CityBar-info {
+  width: 50%;
+}
+
+.CityBar-info > h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.CityBar-info > div {
+  font-size: 1.2rem;
+  margin: 0.5rem 0 0.5rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.CityBar-flag {
+  width: 50%;
+  text-align: center;
+}
+
+.CityBar-flag > img {
+  width: 50%;
+  height: auto;
+}
