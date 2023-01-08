@@ -41,6 +41,7 @@ export default function CityBar({ weather }) {
           <img
             src={`https://countryflagsapi.com/png/${weather.city.country}`}
             alt=""
+            crossorigin="anonymous"
           />
         </div>
       </div>

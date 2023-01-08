@@ -24,7 +24,7 @@ export default function WeatherCard({ weather }) {
       </div>
       <div className="WeatherCard-carousel">
         {i[1].map((d) => (
-          <div className={`WeatherCard-carousel-card`}>
+          <div className={`WeatherCard-carousel-card`} key={uuidv4()}>
             <h2>{moment.unix(d.dt).format("LT")}</h2>
             <h3>{d.weather[0].main}</h3>
             <span>
@@ -54,6 +54,7 @@ export default function WeatherCard({ weather }) {
             <img
               src={`http://openweathermap.org/img/w/${d.weather[0].icon}.png`}
               alt=""
+              crossorigin="anonymous"
             />
           </div>
         ))}
