@@ -13,7 +13,7 @@ function App() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const url = `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=6a36ca10329a818abc045da6ffec45ea&units=metric`;
+    const url = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=6a36ca10329a818abc045da6ffec45ea&units=metric`;
     const result = await axios.get(url);
     const data = await result.data;
     console.log(data);
